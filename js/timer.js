@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-    let birthday = "May 4, 2021 20:10:00",
+    let birthday = "May 8, 2021 23:25:00",
         countDown = new Date(birthday).getTime(),
         x = setInterval(function () {
 
@@ -22,7 +22,7 @@
                     countdown = document.getElementById("countdown"),
                     content = document.getElementById("content");
 
-                headline.innerText = "Good job boo!!!!! I'm proud of you<3";
+                headline.innerText = "Good work!!";
                 countdown.style.display = "none";
                 content.style.display = "block";
 
